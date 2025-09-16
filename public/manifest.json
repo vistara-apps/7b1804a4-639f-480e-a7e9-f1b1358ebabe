@@ -1,0 +1,14 @@
+{
+  "name": "Base Monetizer",
+  "description": "Base Monetizer is a Base Mini App built with Zara.",
+  "image": "https://dummyimage.com/1200x628/0a0b0d/ffffff.png&text=OG",
+  "external_url": "https://7b1804a4-639f-480e-a7e9-f1b1358ebabe.vercel.app",
+  "properties": {
+    "app": {
+      "name": "Base Monetizer",
+      "description": "Base Monetizer is a Base Mini App built with Zara.",
+      "url": "https://7b1804a4-639f-480e-a7e9-f1b1358ebabe.vercel.app",
+      "icon": "https://0co.to/images/zara-2.png"
+    }
+  }
+}

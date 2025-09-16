@@ -1,0 +1,30 @@
+{
+  "accountAssociation": {
+    "header": "",
+    "payload": "",
+    "signature": ""
+  },
+  "frame": {
+    "version": "1",
+    "name": "Base Monetizer",
+    "subtitle": "Built with Zara",
+    "description": "Base Monetizer is a Base Mini App built with Zara.",
+    "iconUrl": "https://0co.to/images/zara-2.png",
+    "homeUrl": "https://7b1804a4639f480ea7e9f1b1358ebabe-bo0z.vercel.app",
+    "splashImageUrl": "https://7b1804a4639f480ea7e9f1b1358ebabe-bo0z.vercel.app/splash.png",
+    "splashBackgroundColor": "#000000",
+    "heroImageUrl": "https://7b1804a4639f480ea7e9f1b1358ebabe-bo0z.vercel.app/image.png",
+    "tagline": "Base Monetizer",
+    "screenshotUrls": [
+      "https://7b1804a4639f480ea7e9f1b1358ebabe-bo0z.vercel.app/screenshot.png",
+      "https://7b1804a4639f480ea7e9f1b1358ebabe-bo0z.vercel.app/screenshot.png"
+    ],
+    "primaryCategory": "social",
+    "tags": [
+      "base",
+      "miniapp",
+      "onchainkit"
+    ],
+    "webhookUrl": "https://7b1804a4639f480ea7e9f1b1358ebabe-bo0z.vercel.app/api/webhook"
+  }
+}
