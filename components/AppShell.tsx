@@ -1,6 +1,5 @@
 'use client';
 
-import { useMiniKit } from '@coinbase/minikit';
 import { ReactNode } from 'react';
 
 interface AppShellProps {
@@ -8,7 +7,8 @@ interface AppShellProps {
 }
 
 export function AppShell({ children }: AppShellProps) {
-  const { context } = useMiniKit();
+  // TODO: Add user context when MiniKit hooks are available
+  const context = null;
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-600 via-blue-500 to-cyan-400">
@@ -26,18 +26,15 @@ export function AppShell({ children }: AppShellProps) {
                   <p className="text-white/80 text-sm">Build miniapps, fast</p>
                 </div>
               </div>
-              {context?.user && (
-                <div className="flex items-center space-x-2">
-                  <div className="w-8 h-8 bg-white/20 rounded-full flex items-center justify-center">
-                    <span className="text-white text-sm">
-                      {context.user.displayName?.[0] || '👤'}
-                    </span>
-                  </div>
-                  <span className="text-white/90 text-sm hidden sm:block">
-                    {context.user.displayName || 'User'}
-                  </span>
+              {/* User profile will be shown when MiniKit context is available */}
+              <div className="flex items-center space-x-2">
+                <div className="w-8 h-8 bg-white/20 rounded-full flex items-center justify-center">
+                  <span className="text-white text-sm">👤</span>
                 </div>
-              )}
+                <span className="text-white/90 text-sm hidden sm:block">
+                  Guest User
+                </span>
+              </div>
             </div>
           </div>
         </header>
