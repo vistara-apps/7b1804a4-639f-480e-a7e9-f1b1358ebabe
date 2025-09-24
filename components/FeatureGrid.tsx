@@ -54,7 +54,7 @@ export function FeatureGrid({ onFeatureSelect }: FeatureGridProps) {
               variant="outline"
               size="sm"
               onClick={(e) => {
-                e.stopPropagation();
+                e?.stopPropagation();
                 handleFeatureClick(feature.id);
               }}
             >

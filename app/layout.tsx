@@ -3,11 +3,11 @@ import { Providers } from './providers';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Base Monetizer',
-  description: 'Build and launch your first Base monetized miniapp, fast.',
+  title: 'CustomFit AI',
+  description: 'Your AI-powered home fitness companion, adapting to you.',
   openGraph: {
-    title: 'Base Monetizer',
-    description: 'Build and launch your first Base monetized miniapp, fast.',
+    title: 'CustomFit AI',
+    description: 'Your AI-powered home fitness companion, adapting to you.',
     type: 'website',
   },
 };
